@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slider-container {
+    @apply w-fit m-6 bg-white px-3 py-2 shadow-md rounded-md shadow-slate-400 flex flex-col;
+}
+
+.slider {
+    @apply accent-zinc-800 w-[26em] mt-1 cursor-pointer outline-none;
+}
+
+.btn-container{
+    @apply flex justify-center
+}
+
+.btn {
+    @apply bg-black text-white py-2 px-3 rounded-md m-4 transition shadow-gray-500 shadow-md hover:bg-slate-800;
+}
+
+.btn-new{
+    @apply py-2 px-3 rounded-md m-4 bg-white transition-all hover:bg-gray-200 shadow-md shadow-gray-300
+}
